@@ -10,7 +10,6 @@
     "editorWarning.foreground": "#ec0"
   },
   "editor.renderLineHighlight": "all",
-  "editor.renderLineHighlight": "all",
   "editor.lineHeight": 25,
   "explorer.autoReveal": false,
   "editor.minimap.enabled": false,
@@ -54,7 +53,7 @@
   },
   // Cursor
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.cursorWidth": 3,
+  "editor.cursorWidth": 5,
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "solid",
   // Javascript Formatting

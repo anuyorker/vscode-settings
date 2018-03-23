@@ -6,8 +6,9 @@
   "workbench.startupEditor": "newUntitledFile",
   // Editor Appearance
   "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "workbench.colorTheme": "Atom One Light",
   "workbench.colorCustomizations": {
-    "editorWarning.foreground": "#ec0"
+    "editorWarning.foreground": "#D36B75"
   },
   "editor.renderLineHighlight": "all",
   "editor.lineHeight": 25,
@@ -65,6 +66,5 @@
   // Emmet
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
-  },
-  "workbench.colorTheme": "Atom One Light"
+  }
 }

@@ -40,7 +40,7 @@
     "import/prefer-default-export": 0,
     "import": 0,
     "func-names": 0,
-    "space-before-function-paren": 0,
+    "space-before-function-paren": ["error", "always"],
     "comma-dangle": 0,
     "max-len": 0,
     "import/extensions": 0,
@@ -90,8 +90,5 @@
       }
     ]
   },
-  "plugins": [
-    // "html",
-    "prettier"
-  ]
+  "plugins": ["prettier"]
 }

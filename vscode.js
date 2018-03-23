@@ -19,10 +19,10 @@
   //   100
   // ],
   // Font
-  "editor.fontFamily": "Operator Mono",
+  "editor.fontFamily": "Fira Code",
   "editor.fontWeight": "400",
-  "editor.fontSize": 17,
-  "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
+  "editor.fontSize": 16,
+  // "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,
   // Material Icons
@@ -57,16 +57,14 @@
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "solid",
   // Javascript Formatting
+  "prettier.eslintIntegration": true,
   "javascript.validate.enable": false,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "prettier.singleQuote": true,
-  "prettier.eslintIntegration": true,
   // Use Sublime Keymapping
   "sublimeTextKeymap.promptV3Features": true,
   // Emmet
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
-  "workbench.colorTheme": "Cobalt2"
+  "workbench.colorTheme": "Atom One Light"
 }

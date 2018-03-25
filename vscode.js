@@ -1,70 +1,87 @@
 {
-  // Hide Annoying VSCode Things
-  "workbench.activityBar.visible": false,
-  "workbench.statusBar.visible": true,
-  "workbench.sideBar.location": "left",
+  /*** Change Annoying VSCode Things ***/
   "workbench.startupEditor": "newUntitledFile",
-  // Editor Appearance
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.activityBar.visible": false,
+  "workbench.sideBar.location": "left",
+  "workbench.editor.tabCloseButton": "right",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "explorer.autoReveal": false,
+  "editor.minimap.enabled": false,
+  /*** Editor Appearance ***/
   "window.title": "${activeEditorMedium}${separator}${rootName}",
-  "workbench.colorTheme": "Atom One Light",
   "workbench.colorCustomizations": {
-    "editorWarning.foreground": "#D36B75"
+    "editorWarning.foreground": "#ec0",
+    "statusBar.background": "#26292C"
   },
   "editor.renderLineHighlight": "all",
   "editor.lineHeight": 25,
-  "explorer.autoReveal": false,
-  "editor.minimap.enabled": false,
+  "editor.colorDecorators": true, // false - can be annoying sometimes
+  "editor.minimap.showSlider": "always",
   "editor.snippetSuggestions": "top",
-  // "editor.rulers": [
-  //   80,
-  //   100
-  // ],
-  // Font
+  "extensions.ignoreRecommendations": false,
+  "editor.rulers": [
+    80,
+    100
+  ],
+  /*** Font ***/
   "editor.fontFamily": "Fira Code",
   "editor.fontWeight": "400",
-  "editor.fontSize": 16,
-  // "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
+  "editor.fontSize": 17,
+  "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,
-  // Material Icons
+  /*** Material Icons ***/
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.activeIconPack": "react_redux",
   "material-icon-theme.folders.theme": "specific",
-  // Material Theme Settings
-  "materialTheme.cache.workbench.settings": {
-    "themeColours": "Darker High Contrast",
-    "accentPrevious": "Graphite"
-  },
-  // Code Formatting
+  /*** Editor Code Formatting ***/
   "editor.tabSize": 2,
   "editor.trimAutoWhitespace": false,
+  "editor.renderWhitespace": "boundary",
   "editor.wordWrap": "on",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
   "editor.detectIndentation": false,
   "editor.letterSpacing": 0.5,
   "editor.renderIndentGuides": false,
-  "editor.renderWhitespace": "all",
   "editor.renderControlCharacters": false,
-  // File Formatting
+  /*** Files ***/
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.associations": {
-    ".gitignore": "shellscript"
+    ".gitignore": "shellscript",
+    ".eslintrc.json": "jsonc"
   },
-  // Cursor
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
+  /*** HTML ***/
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  /*** Cursor ***/
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.cursorWidth": 5,
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "solid",
-  // Javascript Formatting
+  /*** Javascript Formatting ***/
+  // auto-save configs
+  // "editor.formatOnSave": true,
+  // turn it off for JS
+  // "javascript.format.enable": false,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
   "prettier.eslintIntegration": true,
-  "javascript.validate.enable": false,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
-  // Use Sublime Keymapping
+  /*** Sublime Keymapping ***/
   "sublimeTextKeymap.promptV3Features": true,
-  // Emmet
+  /*** Emmet ***/
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
-  }
+  },
+  "workbench.colorTheme": "Flatland Monokai"
 }

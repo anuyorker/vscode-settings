@@ -100,10 +100,18 @@
       }
     ],
     "space-before-function-paren": [ // function (), not function()
-      "error",
+      2,
       "always"
     ],
     "no-plusplus": 0, // i.e. allow i++, not just i += 1
-    "no-restricted-properties": 0 // i.e. alllow Math.pow(), not just **
+    "no-restricted-properties": 0, // i.e. alllow Math.pow(), not just **
+    "arrow-parens": [
+      2,
+      "as-needed"
+    ],
+    "prefer-destructuring": 0,
+    "react/prop-types": 0,
+    "import/no-unresolved": 0,
+    "jsx-a11y/alt-text": 0
   }
 }

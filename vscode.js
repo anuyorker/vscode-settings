@@ -9,14 +9,15 @@
   "explorer.autoReveal": false,
   "editor.minimap.enabled": false,
   /*** Editor Appearance ***/
+  "workbench.colorTheme": "New Moon",
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.colorCustomizations": {
     "editorWarning.foreground": "#ec0",
-    "statusBar.background": "#26292C"
+    "statusBar.background": "#2D2D2D"
   },
   "editor.renderLineHighlight": "all",
   "editor.lineHeight": 25,
-  "editor.colorDecorators": true, // false - can be annoying sometimes
+  "editor.colorDecorators": false, // false - can be annoying sometimes
   "editor.minimap.showSlider": "always",
   "editor.snippetSuggestions": "top",
   "extensions.ignoreRecommendations": false,
@@ -25,16 +26,12 @@
     100
   ],
   /*** Font ***/
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Code New Roman",
   "editor.fontWeight": "400",
   "editor.fontSize": 17,
   "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,
-  /*** Material Icons ***/
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.activeIconPack": "react_redux",
-  "material-icon-theme.folders.theme": "specific",
   /*** Editor Code Formatting ***/
   "editor.tabSize": 2,
   "editor.trimAutoWhitespace": false,
@@ -70,11 +67,11 @@
   // auto-save configs
   // "editor.formatOnSave": true,
   // turn it off for JS
-  // "javascript.format.enable": false,
+  "javascript.format.enable": false,
   "[javascript]": {
     "editor.formatOnSave": false
   },
-  "eslint.autoFixOnSave": true,
+  // "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   "prettier.eslintIntegration": true,
   /*** Sublime Keymapping ***/
@@ -83,5 +80,7 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
-  "workbench.colorTheme": "Flatland Monokai"
+  /*** Icons ***/
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "react_redux"
 }

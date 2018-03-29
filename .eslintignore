@@ -1,4 +1,0 @@
-*.css
-*.scss
-**/node_modules/**
-**/webpack.config*.js

@@ -8,16 +8,15 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "explorer.autoReveal": false,
   "editor.minimap.enabled": false,
-  /*** Editor Appearance ***/
-  "workbench.colorTheme": "New Moon",
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.colorCustomizations": {
     "editorWarning.foreground": "#ec0",
-    "statusBar.background": "#2D2D2D"
+    "statusBar.background": "#2D2D2D",
+    "statusBar.noFolderBackground": "#2D2D2D"
   },
   "editor.renderLineHighlight": "all",
   "editor.lineHeight": 25,
-  "editor.colorDecorators": false, // false - can be annoying sometimes
+  "editor.colorDecorators": true, // false - can be annoying sometimes
   "editor.minimap.showSlider": "always",
   "editor.snippetSuggestions": "top",
   "extensions.ignoreRecommendations": false,
@@ -28,7 +27,7 @@
   /*** Font ***/
   "editor.fontFamily": "Code New Roman",
   "editor.fontWeight": "400",
-  "editor.fontSize": 17,
+  "editor.fontSize": 15,
   "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,
@@ -80,7 +79,11 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   /*** Icons ***/
   "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.activeIconPack": "react_redux"
+  "material-icon-theme.activeIconPack": "react_redux",
+  "workbench.colorTheme": "New Moon"
 }

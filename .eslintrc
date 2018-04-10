@@ -120,6 +120,9 @@
     "import/first": 0,
     "react/no-unused-state": 0,
     "no-useless-constructor": 0,
-    "jsx-a11y/label-has-for": 0
+    "jsx-a11y/label-has-for": 0,
+    "strict": 0,
+    "spaced-comment": 0,
+    "one-var": 0
   }
 }

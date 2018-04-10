@@ -11,8 +11,8 @@
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.colorCustomizations": {
     "editorWarning.foreground": "#ec0",
-    "statusBar.background": "#2D2D2D",
-    "statusBar.noFolderBackground": "#2D2D2D"
+    // "statusBar.background": "#2D2D2D",
+    // "statusBar.noFolderBackground": "#2D2D2D"
   },
   "editor.renderLineHighlight": "all",
   "editor.lineHeight": 25,
@@ -27,7 +27,7 @@
   /*** Font ***/
   "editor.fontFamily": "Code New Roman",
   "editor.fontWeight": "400",
-  "editor.fontSize": 15,
+  "editor.fontSize": 18,
   "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,
@@ -70,7 +70,7 @@
   "[javascript]": {
     "editor.formatOnSave": false
   },
-  // "eslint.autoFixOnSave": true,
+  "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   "prettier.eslintIntegration": true,
   /*** Sublime Keymapping ***/
@@ -85,5 +85,5 @@
   /*** Icons ***/
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.activeIconPack": "react_redux",
-  "workbench.colorTheme": "New Moon"
+  "workbench.colorTheme": "Nostromo"
 }

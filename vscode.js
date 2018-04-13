@@ -10,9 +10,7 @@
   "editor.minimap.enabled": false,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.colorCustomizations": {
-    "editorWarning.foreground": "#ec0",
-    // "statusBar.background": "#2D2D2D",
-    // "statusBar.noFolderBackground": "#2D2D2D"
+    "editorWarning.foreground": "#ec0"
   },
   "editor.renderLineHighlight": "all",
   "editor.lineHeight": 25,
@@ -25,9 +23,9 @@
     100
   ],
   /*** Font ***/
-  "editor.fontFamily": "Code New Roman",
+  "editor.fontFamily": "Monaco",
   "editor.fontWeight": "400",
-  "editor.fontSize": 18,
+  "editor.fontSize": 14,
   "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,

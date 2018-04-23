@@ -124,6 +124,7 @@
     "strict": 0,
     "spaced-comment": 0,
     "one-var": 0,
-    "react/sort-comp": 0
+    "react/sort-comp": 0,
+    "import/no-extraneous-dependencies": 0
   }
 }

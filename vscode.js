@@ -23,9 +23,9 @@
     100
   ],
   /*** Font ***/
-  "editor.fontFamily": "Monaco",
+  "editor.fontFamily": "Fira Code",
   "editor.fontWeight": "400",
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,

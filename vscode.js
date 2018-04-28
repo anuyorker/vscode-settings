@@ -10,7 +10,8 @@
   "editor.minimap.enabled": false,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.colorCustomizations": {
-    "editorWarning.foreground": "#ec0"
+    "editorWarning.foreground": "#ec0",
+    "statusBar.background": "#1E2021"
   },
   "editor.renderLineHighlight": "all",
   "editor.lineHeight": 25,
@@ -23,7 +24,7 @@
     100
   ],
   /*** Font ***/
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Hasklig",
   "editor.fontWeight": "400",
   "editor.fontSize": 15,
   "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
@@ -83,5 +84,6 @@
   /*** Icons ***/
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.activeIconPack": "react_redux",
-  "workbench.colorTheme": "Nostromo"
+  "latex-workshop.view.pdf.viewer": "tab",
+  "workbench.colorTheme": "Gruvbox Dark (Hard)"
 }

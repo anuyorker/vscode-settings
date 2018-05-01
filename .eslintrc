@@ -125,6 +125,9 @@
     "spaced-comment": 0,
     "one-var": 0,
     "react/sort-comp": 0,
-    "import/no-extraneous-dependencies": 0
+    "import/no-extraneous-dependencies": 0,
+    "no-use-before-define": 0,
+    "import/newline-after-import": 0,
+    "global-require": 0
   }
 }

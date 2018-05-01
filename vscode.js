@@ -24,9 +24,9 @@
     100
   ],
   /*** Font ***/
-  "editor.fontFamily": "Hasklig",
+  "editor.fontFamily": "Inconsolata-dz",
   "editor.fontWeight": "400",
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,

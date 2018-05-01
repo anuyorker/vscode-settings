@@ -24,9 +24,9 @@
     100
   ],
   /*** Font ***/
-  "editor.fontFamily": "Inconsolata-dz",
+  "editor.fontFamily": "Hasklig",
   "editor.fontWeight": "400",
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,
@@ -85,5 +85,5 @@
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.activeIconPack": "react_redux",
   "latex-workshop.view.pdf.viewer": "tab",
-  "workbench.colorTheme": "Gruvbox Dark (Hard)"
+  "workbench.colorTheme": "crayon-vscode"
 }

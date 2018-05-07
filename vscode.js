@@ -23,7 +23,7 @@
     100
   ],
   /*** Font ***/
-  "editor.fontFamily": "Monaco",
+  "editor.fontFamily": "Menlo",
   "editor.fontWeight": "400",
   "editor.fontSize": 14,
   "workbench.fontAliasing": "antialiased", // for crisp text on Retina displays

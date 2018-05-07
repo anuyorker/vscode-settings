@@ -10,8 +10,7 @@
   "editor.minimap.enabled": false,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.colorCustomizations": {
-    "editorWarning.foreground": "#ec0",
-    "statusBar.background": "#1E2021"
+    "editorWarning.foreground": "#ec0"
   },
   "editor.renderLineHighlight": "all",
   "editor.lineHeight": 25,
@@ -24,10 +23,10 @@
     100
   ],
   /*** Font ***/
-  "editor.fontFamily": "Hasklig",
+  "editor.fontFamily": "Monaco",
   "editor.fontWeight": "400",
-  "editor.fontSize": 15,
-  "workbench.fontAliasing": "antialiased", // for crisp text on Retina display
+  "editor.fontSize": 14,
+  "workbench.fontAliasing": "antialiased", // for crisp text on Retina displays
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,
   /*** Editor Code Formatting ***/
@@ -63,17 +62,19 @@
   "editor.cursorBlinking": "solid",
   /*** Javascript Formatting ***/
   // auto-save configs
-  // "editor.formatOnSave": true,
-  // turn it off for JS
-  "javascript.format.enable": false,
-  "[javascript]": {
+  "editor.formatOnSave": true,
+  "[css]": {
     "editor.formatOnSave": false
   },
+  "[scss]": {
+    "editor.formatOnSave": false
+  },
+  // turn it off for JS
+  "javascript.format.enable": false,
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   "prettier.eslintIntegration": true,
-  /*** Sublime Keymapping ***/
-  "sublimeTextKeymap.promptV3Features": true,
+  "prettier.singleQuote": true,
   /*** Emmet ***/
   "emmet.syntaxProfiles": {
     "javascript": "jsx"

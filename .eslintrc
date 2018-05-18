@@ -1,9 +1,5 @@
 {
-  "extends": [
-    "fullstack",
-    "airbnb",
-    "prettier/react"
-  ],
+  "extends": ["fullstack", "airbnb", "prettier/react"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 8,
@@ -61,10 +57,7 @@
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
+        "extensions": [".js", ".jsx"]
       }
     ],
     "radix": 0,
@@ -72,14 +65,7 @@
       1, // 2,
       {
         "hoist": "all",
-        "allow": [
-          "resolve",
-          "reject",
-          "done",
-          "next",
-          "err",
-          "error"
-        ]
+        "allow": ["resolve", "reject", "done", "next", "err", "error"]
       }
     ],
     "quotes": [
@@ -94,19 +80,15 @@
     "jsx-a11y/anchor-is-valid": [
       "warn",
       {
-        "aspects": [
-          "invalidHref"
-        ]
+        "aspects": ["invalidHref"]
       }
     ],
-    "space-before-function-paren": [ // function (), not function()
+    "space-before-function-paren": [
+      // function (), not function()
       1,
       "always"
     ],
-    "arrow-parens": [
-      1,
-      "as-needed"
-    ],
+    "arrow-parens": [1, "as-needed"],
     "prefer-const": 1,
     "object-curly-spacing": 1,
     "no-plusplus": 0, // i.e. allow i++, not just i += 1
@@ -128,6 +110,8 @@
     "import/no-extraneous-dependencies": 0,
     "no-use-before-define": 0,
     "import/newline-after-import": 0,
-    "global-require": 0
+    "global-require": 0,
+    "no-warning-comments": 0,
+    "no-case-declarations": 0
   }
 }

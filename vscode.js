@@ -23,7 +23,7 @@
     100
   ],
   /*** Font ***/
-  "editor.fontFamily": "Menlo",
+  "editor.fontFamily": "DejaVu Sans Mono",
   "editor.fontWeight": "400",
   "editor.fontSize": 14,
   "workbench.fontAliasing": "antialiased", // for crisp text on Retina displays
@@ -86,5 +86,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.activeIconPack": "react_redux",
   "latex-workshop.view.pdf.viewer": "tab",
-  "workbench.colorTheme": "crayon-vscode"
+  "[javascriptreact]": {},
+  "workbench.colorTheme": "Sapphire (Bright)"
 }

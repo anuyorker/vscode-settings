@@ -18,10 +18,7 @@
   "editor.minimap.showSlider": "always",
   "editor.snippetSuggestions": "top",
   "extensions.ignoreRecommendations": false,
-  "editor.rulers": [
-    80,
-    100
-  ],
+  "editor.rulers": [80, 100],
   /*** Font ***/
   "editor.fontFamily": "DejaVu Sans Mono",
   "editor.fontWeight": "400",
@@ -87,5 +84,5 @@
   "material-icon-theme.activeIconPack": "react_redux",
   "latex-workshop.view.pdf.viewer": "tab",
   "[javascriptreact]": {},
-  "workbench.colorTheme": "Sapphire (Bright)"
+  "workbench.colorTheme": "Sapphire"
 }

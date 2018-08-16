@@ -2,7 +2,7 @@
   /*** Change Annoying VSCode Things ***/
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.tabSizing": "shrink",
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
   "workbench.editor.tabCloseButton": "right",
   "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -10,7 +10,8 @@
   "editor.minimap.enabled": false,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.colorCustomizations": {
-    "editorWarning.foreground": "#ec0"
+    "editorWarning.foreground": "#ec0",
+    "statusBar.noFolderBackground": "#3C3C3C"
   },
   "editor.renderLineHighlight": "all",
   "editor.lineHeight": 25,
@@ -20,7 +21,7 @@
   "extensions.ignoreRecommendations": false,
   "editor.rulers": [80, 100],
   /*** Font ***/
-  "editor.fontFamily": "DejaVu Sans Mono",
+  "editor.fontFamily": "Consolas",
   "editor.fontWeight": "400",
   "editor.fontSize": 14,
   "workbench.fontAliasing": "antialiased", // for crisp text on Retina displays
@@ -64,6 +65,9 @@
     "editor.formatOnSave": false
   },
   "[scss]": {
+    "editor.formatOnSave": false
+  },
+  "[yaml]": {
     "editor.formatOnSave": false
   },
   // turn it off for JS

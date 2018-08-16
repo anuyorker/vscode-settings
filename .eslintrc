@@ -112,6 +112,8 @@
     "import/newline-after-import": 0,
     "global-require": 0,
     "no-warning-comments": 0,
-    "no-case-declarations": 0
+    "no-case-declarations": 0,
+    "no-lonely-if": 0,
+    "no-else-return": 0
   }
 }

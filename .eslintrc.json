@@ -1,13 +1,15 @@
 {
-  "extends": ["fullstack", "airbnb", "prettier/react"],
-  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "ecmaVersion": 8,
+    "ecmaVersion": 12,
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
       "impliedStrict": true,
       "classes": true
-    }
+    },
+    "requireConfigFile": false
   },
   "env": {
     "browser": true,
@@ -16,6 +18,17 @@
     "jest": true
   },
   "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 120,
+        "tabWidth": 2,
+        "space-before-function-paren": ["error", "never"]
+      }
+    ],
+    "no-console": 2, // error
     "no-debugger": 0,
     "no-unused-vars": [
       0, // 1,
@@ -39,7 +52,6 @@
         "props": false
       }
     ],
-    "no-console": 0,
     "import/prefer-default-export": 0,
     "import": 0,
     "func-names": 0,
@@ -83,11 +95,7 @@
         "aspects": ["invalidHref"]
       }
     ],
-    "space-before-function-paren": [
-      // function (), not function()
-      1,
-      "always"
-    ],
+    "space-before-function-paren": ["error", "never"], // function, not function ()
     "arrow-parens": [1, "as-needed"],
     "prefer-const": 1,
     "object-curly-spacing": 1,
@@ -114,6 +122,9 @@
     "no-warning-comments": 0,
     "no-case-declarations": 0,
     "no-lonely-if": 0,
-    "no-else-return": 0
+    "no-else-return": 0,
+    "no-restricted-syntax": 0,
+    "indent": 0,
+    "no-throw-literal": 0
   }
 }
